@@ -3,3 +3,10 @@ install/
 log/
 __pycache__/
 *.pyc
+*.so
+*.o
+*.bin
+*.bag
+*.pt
+*.pkl
+*.zip
