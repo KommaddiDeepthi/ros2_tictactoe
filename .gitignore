@@ -1,12 +1,30 @@
+# ROS2 build artifacts
 build/
 install/
 log/
+
+# Compiled object and shared library files
+*.o
+*.so
+*.a
+
+# Python cache
 __pycache__/
 *.pyc
-*.so
-*.o
-*.bin
-*.bag
-*.pt
-*.pkl
-*.zip
+
+# VSCode and development settings
+.vscode/
+.devcontainer/
+
+# Temporary and backup files
+*.swp
+*.bak
+*.tmp
+
+# CMake build system files
+CMakeFiles/
+CMakeCache.txt
+
+# Launch logs and generated files
+*.launch.pyc
+*.log
